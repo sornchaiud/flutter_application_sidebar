@@ -2,8 +2,7 @@ import 'dart:async'; // สำหรับจัดการข้อมูล�
 
 import 'package:flutter/material.dart';
 
-import './models/article.dart';
-import './models/product_model.dart';
+import '../models/article.dart';
 
 class Home extends StatefulWidget {
   static const routeName = '/';
