@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 import '../models/article.dart';
 
+import '../components/sidemenu.dart';
+
 class Home extends StatefulWidget {
   static const routeName = '/';
 
@@ -132,6 +134,7 @@ class _HomeState extends State<Home> {
           },
         ),
       ),
+      drawer: const SideMenu(),
     );
   }
 }
